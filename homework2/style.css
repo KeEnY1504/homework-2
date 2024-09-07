@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.header{
+    padding: 17px;
+    font-family: Lato;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__item{
+    margin-right: 70px;
+}
+
+.btn{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996D;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+}
+.btn_white{
+    color: black;
+    background-color: white;
+}
+.main{
+    background: url('/img/BG.svg') no-repeat center center / cover;
+    height: 90vh;
+    padding-top: 170px;
+}
+
+.main__info{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.main__title{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    width: 440px;
+    height: 148px;
+}
+
+
+.main__text{
+    color: #484848;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 420px;
+    height: 123px;
+}
+
+.steps{
+    padding: 169px 0 255px 0;
+}
+
+.steps__subtitle{
+    color :#424242;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.steps_title{
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+
+.steps__text{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 670px;
+    margin-bottom: 41px;
+}
+
+.steps__block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+.steps__card-title{
+    color: #000;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.steps__card{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__pic img{
+    border-radius: 12px;
+}
+
+
+
+
+/* 3 */
+
+.video{
+    background-color:#245852;
+    max-width: 1920px;
+    height: 922px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    max-width: 580px;
+    height: 230px;
+    margin-top: 310px;
+
+}
+
+.into{
+    max-width: 580px;
+    height: 158px;
+    margin-bottom: 33px;
+
+} .into  {
+    color: white;
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.into2{
+    max-width: 530px;
+    height: 39px;
+} .into2  {
+    font-family: Lato;
+font-size: 25px;
+font-weight: 600;
+line-height: 39.25px;
+text-align: left;
+color: white;
+margin-bottom: 57px;
+}
+
+.text_bottom{
+}
+
+
+.video_player{
+    width: 895.84px;
+    height: 516.11px;
+    gap: 0px;
+    opacity: 0px;
+    float: right;
+
+    margin-top: 229px;
+}
+
+
+
+/* 4 */
+
+.product{
+    max-width: 1370px;
+    height: 648px;
+    margin: 120px auto 168px auto;
+    display: flex;
+}
+
+
+.foto_img{
+    margin-left: 60px;
+    margin-right: 83.63px;
+    width: 638.69px;
+    height: 573.26px;
+
+}
+
+
+.box_text{
+    width: 584px;
+    height: 413px;
+}
+
+
+.intro_card{
+    width: 584px;
+    height: 207px;
+}
+
+.our{
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #424242;
+} 
+
+.yt{
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    color: #01996D;
+    margin-bottom: 20px;
+}
+
+.text_intro{
+    width: 530px;
+    height: 81px;
+    margin-bottom: 40px;
+} .text_intro p {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.4px;
+    text-align: left;
+    color: #484848;
+}
+.find{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.podval{
+    background-color: #245852;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 654px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.podval_info{
+    margin:95px 1516px 144px 275px   ;
+}.podval_info ul{
+    text-decoration: none;
+
+} .podval_info ul li {
+    padding: 20px;
+}.podval_info ul li a{
+    color: white;
+
+} .info_podval{
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+.logo_podval{
+    font-family: Avenir;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 54.64px;
+    text-align: left;
+
+}
